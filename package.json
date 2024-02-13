@@ -1,0 +1,19 @@
+{
+  "name": "flightSearch",
+  "type": "module",
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.2.1",
+    "@wdio/allure-reporter": "^8.31.1",
+    "@wdio/cli": "^8.31.0",
+    "@wdio/cucumber-framework": "^8.31.0",
+    "@wdio/local-runner": "^8.31.0",
+    "allure-commandline": "^2.27.0"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "inform": "tsc"
+  },
+  "dependencies": {
+    "allure": "^0.0.0"
+  }
+}
